@@ -107,7 +107,8 @@
           <group delimiter=", ">
             <text variable="title"/>
             <text variable="number"/>
-            <text macro="year-date"/>
+	    <text variable="jurisdiction" form="short"/>
+	    <text macro="year-date"/>
           </group>
         </else-if>
         <else-if type="thesis">
